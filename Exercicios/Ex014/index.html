@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos e Midia</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+        <p>este video esta hospedado no meu proprio servidor</p>
+        <video width="500" poster="Img/limoes-capa.png" controls autoplay muted playsinline loop>
+            <source src="media/meu-video.mp4" type="video/mp4">
+            <source src="media/meu-video.m4v" type="video/m4v">
+            <source src="media/meu-video.ogv" type="video/ogv">
+            <source src="media/meu-video.webm" type="video/webm">
+            <p>seu navegador não tem compatibilidade com esse <video src=""></video></p>
+        </video>
+        <!--somente a tag autoplay nao estava funcionando (precisei colocar muted playsinline) devido a segurança dos navegares-->
+    <h1>Inserindo videos de hospedagem publica</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/U4UwS_BQ14M?si=7HQp3sRRcL9jbh18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+          
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            background-color: dimgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            
+        }
+        header {
+            width: 600px;
+            background-color: pink;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+                background-color: brown;
+                padding: 3px;
+
+        }
+
+        nav > a {
+            text-decoration: none;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: rgb(247, 250, 253);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 10px;
+            box-shadow: 4px 4px 4px 4px black;
+        }
+        article{
+            color: brown;
+        }
+        article > aside {
+            background-color: rosybrown;
+        }
+
+        footer {
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ratione facilis asperiores. Doloribus labore deleniti, quasi neque nesciunt, nulla ipsa asperiores impedit vero accusantium id, excepturi reiciendis ducimus magni fugiat.</p>
+                <aside>
+                   <p>esse artigo foi escrito por jose da silva</p> 
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>desenvolvido pelo curso em video </p>
+    </footer>
+</body>
+</html>

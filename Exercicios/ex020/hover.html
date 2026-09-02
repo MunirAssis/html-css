@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+    <style>
+        #principal{
+            text-align: center;
+        }
+
+        div:hover {
+            color: red;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+        }
+ 
+       /*height = altura
+        width = largura
+        border
+        padding = preenchimento
+        margin
+        outline = tracejado 
+        */
+    </style>
+
+    
+</head>
+<body>
+
+    
+    <h1 id="principal">Testando as :Hover</h1>
+        <h2>passe o mouse sobre o texte abaixo</h2>
+        <div>
+            passe o mouse aqui
+                <p>Texto escondido</p>
+        </div>
+
+
+
+</body>
+</html>
