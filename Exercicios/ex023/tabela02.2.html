@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas grandes</title>
+    <style>
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        
+        thead {
+            
+            border: 1px solid black;
+            background-color: gray;
+            color: white;
+        }
+
+        tfoot {
+            background-color: black;
+            color: white;
+        }
+        
+        caption {
+            font-size: 1,5rem;
+            background-color: lightgrey;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+        <h1>tabelas Grandes</h1>
+    <!-- Hierarquia de tabelas (Grandes)
+        TABLE 
+            CAPTION = "legenda"
+            THEAD = cabeçalho tabela
+                tr 
+                    th / td 
+            TBODY
+                tr 
+                    th / td 
+            TFOOT
+                tr 
+                    th / td 
+    -->
+    <table>
+        <thead>
+             <tr>
+                <th scope="col">Estado</th><th scope="col" style="width: 100px;">População</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th scope="row"> Total de habitantes</th>
+                <td class="num">210.147.125</td>
+            </tr>
+        </tfoot>
+        <tbody>
+    
+            <tr> <!-- primeira linha-->
+                <td>• São Paulo (SP)</td>
+                <td class="num">46.179.008 habitantes</td>
+            </tr>
+    
+            <tr>
+                <td>• Minas Gerais (MG)</td>
+                <td class="num">21.460.311 habitantes</td>
+            </tr>
+    
+            <tr>
+                <td>• Rio de Janeiro (RJ)</td>
+                <td class="num">17.225.410 habitantes</td>
+            </tr>
+    
+            <tr>
+                <td>• Bahia (BA)</td>
+                <td class="num">14.889.472 habitantes</td>
+            </tr>
+    
+            <tr>
+                <td>• Paraná (PR)</td>
+                <td class="num">11.952.456 habitantes</td>
+            </tr>
+    
+            <tr>
+                <td>• Rio Grande do Sul (RS)</td>
+                <td class="num">Aproximadamente 11,2 milhões de habitantes</td>
+            </tr>
+    
+            <tr>
+                <td>• Pernambuco (PE)</td>
+                <td class="num">Aproximadamente 9,5 milhões de habitantes</td>
+            </tr>
+    
+            <tr>
+                <td>• Ceará (CE)</td>
+                <td class="num">Aproximadamente 9,2 milhões de habitantes</td>
+            </tr>
+    
+            <tr>
+                <td>• Pará (PA)</td>
+                <td class="num">Aproximadamente 8,7 milhões de habitantes</td>
+            </tr>
+    
+            <tr>
+                <td>• Santa Catarina (SC)</td>
+                <td class="num">Aproximadamente 8,1 milhões de habitantes<td>
+            </tr>
+    
+            <tr>
+                <td>• Goiás (GO)</td>
+                <td class="num">~7,4 milhões</td>
+            </tr>
+    
+            <tr>
+                <td>• Maranhão (MA)</td>
+                <td class="num">~7,0 milhões</td>
+            </tr>
+    
+            <tr>
+                <td>• Amazonas (AM)</td> 
+                <td class="num">~4,3 milhões</td>
+            </tr>
+    
+            <tr>
+                <td>• Paraíba (PB)</td><td class="num">~4,16 milhões</td>
+            </tr>
+    
+            <tr>
+                <td>• Espírito Santo (ES)</td> <td class="num">~4,12 milhõe</td>
+            </tr>
+    
+            <tr>
+                <td>• Mato Grosso (MT)</td> <td class="num">~3,89 milhões</td>
+            </tr>
+    
+            <tr>
+                <td>• Rio Grande do Norte (RN)</td> <td class="num">~3,45 milhões</td>
+            </tr>
+    
+            <tr>
+                <td>• Piauí (PI)</td> <td class="num">~3,38 milhões</td>
+            </tr>
+    
+            <tr>
+                <td>• Alagoas (AL)</td> <td class="num">~3,22 milhões</td>
+            </tr>
+    
+            <tr>
+                <td>• Distrito Federal (DF)</td> <td class="num">~2,99 milhões</td>
+            </tr>
+    
+            <tr>
+                <td>• Mato Grosso do Sul (MS)</td> <td class="num">~2,92 milhões</td>
+            </tr>
+    
+            <tr>
+                <td>• Sergipe (SE)</td> <td class="num">~2,29 milhões</td>
+            </tr>
+    
+            <tr>
+                <td>• Rondônia (RO)</td> <td class="num">~1,75 milhão</td>
+            </tr>
+    
+            <tr>
+                <td>• Tocantins (TO)</td> <td class="num">~1,58 milhão</td>
+            </tr>
+    
+            <tr>
+                <td>• Acre (AC)</td><td class="num"> ~884 mil</td>
+            </tr>
+    
+            <tr>
+                <td>• Amapá (AP)</td> <td class="num">~806 mil</td>
+            </tr>
+    
+            <tr>
+                <td>• Roraima (RR)</td> <td class="num">761.012 habitantes</td>
+            </tr>
+    
+        </tbody>
+
+        <Caption>População por Estado do Brasil</Caption>
+
+    </table>
+</body>
+</html>
