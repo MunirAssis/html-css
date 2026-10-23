@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabalhando com tabelas</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        table {
+            width: 500px;
+        
+        }
+
+        td, th {
+            border: 1px solid salmon;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        td.num{
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Anatomia da tabela</h1>
+    <!-- ANATOMIA DE TABELA 
+     TABLE
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH
+        
+    -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+
+        <tfoot>
+            <th> Total de habitantes</th>
+            <td class="num"><strong>83.000.000</strong></td>
+        </tfoot>
+        
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+        
+            <tr>
+                
+                <td>RJ</td>
+                <td class="num">21.000.000</td>
+            </tr>
+        
+            <tr>
+                
+                <td>Minas Gerais</td>
+                <td class="num">17.000.000</td>
+            </tr>
+
+            <tr>
+                <td>• Espírito Santo: 4.150.692
+                </td>
+                <td>
+                    • Bahia: 
+                </td>
+                14.889.472
+                
+            </tr>
+            <tr>
+                <td>
+                    • Pernambuco: 
+                
+                </td>
+                9.583.176
+            </tr>
+            <tr>
+                <td>
+                    • Ceará: 
+                
+                </td>
+                9.302.211
+            </tr>
+            <tr>
+                <td>
+                    • Maranhão: 
+                
+                </td>
+                7.024.557
+            </tr>
+            <tr>
+                <td>
+                    • Paraíba: 
+                
+                </td>
+                4.182.828
+            </tr>
+            <tr>
+                <td>
+                    • Rio Grande do Norte: 
+                
+                </td>
+                3.463.737
+            </tr>
+            <tr>
+                <td>
+                    • Piauí: 
+                
+                </td>
+                3.392.617
+            </tr>
+            <tr>
+                <td>
+                    • Alagoas: 
+                
+                </td>
+                3.221.128
+            </tr>
+            <tr>
+                <td>
+                    • Sergipe:
+                
+                </td>
+                2.307.255
+            </tr>
+
+            <tr>
+                <td>
+                    • Paraná: 
+                
+                </td>
+                11.952.456
+            </tr>
+            <tr>
+                <td>
+                    • Rio Grande do Sul: 
+                
+                </td>
+                11.233.317
+            </tr>
+            <tr>
+                <td>
+                    • Santa Catarina: 
+                
+                </td>
+                8.312.759
+                <td>
+                    • Pará: 
+                
+                </td>
+                8.756.324
+            </tr>
+            <tr>
+                <td>
+                    • Amazonas: 
+                
+                </td>
+                4.360.926
+            </tr>
+            <tr>
+                <td>
+                    • Rondônia: 
+                
+                </td>
+                1.757.338
+            </tr>
+            <tr>
+                <td>
+                    • Tocantins: 
+                
+                </td>
+                1.595.994
+            </tr>
+            <tr>
+                <td>
+                    • Acre: 
+                
+                </td>
+                887.794
+            </tr>
+            <tr>
+                <td>
+                    • Amapá: 
+                
+                </td>
+                809.953
+            </tr>
+
+            <tr>
+                <td>
+                    • Goiás: 
+                
+                </td>
+                7.495.033
+            </tr>
+            <tr>
+                <td>
+                    • Mato Grosso: 3.950.330
+                
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    • Mato Grosso do Sul: 2.946.317
+                
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    • Distrito Federal: 3.009.996
+                
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+
+</body>
+</html>
