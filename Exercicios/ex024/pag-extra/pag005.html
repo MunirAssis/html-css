@@ -4,18 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        body {
+            background-color: skyblue;
+        }
+    </style>
 </head>
 <body>
     <h1>JAVASCRIPT</h1>
-    <a href="#" onclick="clicou">clique em mim</a>
+    <a href="#" onclick="clicou()">clique em mim</a>
     <div id="saida"></div>
 
     <script>
         function clicou(){
-            s = window.documentgetElementBy.id("saida")
-            s.innerHTML += "<p> VOce clicou</p>"
+            s = document.querySelector("#saida")
+            s.innerHTML += "<p> Voce clicou</p>"
         
-        }
+        }   
     </script>
 </body>
 </html>
