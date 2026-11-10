@@ -8,11 +8,28 @@
 <body>
     <h1>Exemplo de formulario</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
+        
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="masc" value="M">
+            <label for="masc">Masculino</label>
+            <input type="radio" name="sexo" id="femi" value="F">
+            <label for="femi">Feminino</label>        
+        </fieldset> <!--O type=radio faz com que a input vire uma bolinha de marcação, onde se ambas tiverem o mesmo nome, só da para selecionar UMA -->
         <fieldset>
             <legend>Esportes favoritos</legend>
-            <input type="checkbox" name="esfut" id="iesfut"> Futebol
-            <input type="checkbox" name="esbas" id="iesbas"> basquet
-            <input type="checkbox" name="estennis" id="iestennis"> Tennis 
+            <input type="checkbox" name="esfut" id="iesfut" checked> 
+            <label for="iesfut">Futebol</label>
+            <br>
+            <input type="checkbox" name="esbas" id="iesbas" checked> 
+            <label for="iesbas">basquet</label>
+            <br>
+            <input type="checkbox" name="esnat" id="iesnat"> 
+            <label for="iesnat">Natação</label>
+            <br>
+            <input type="checkbox" name="estennis" id="iestennis"> 
+            <label for="iestennis">Tennis</label>
+            <br> 
         </fieldset>
 
         <p>
