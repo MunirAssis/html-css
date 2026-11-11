@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+menu {
+    display: none;
+}
+
+article::after{
+    content: "Esse artigo foi impresso atraves do escritor Munir Assis";
+}
