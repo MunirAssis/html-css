@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/*minhas declarações gerais*/
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    html, body {
+        width: 100vw;
+        height: 100vh;
+        background-color: blue;
+        background-size: contain;
+    }
+    h1{
+        color: whitesmoke;
+        text-shadow: 3px 3px 0px black;
+        padding: 10px;
+    }
+
+/*minhas declarações de paisagem*/
+@media screen and (orientation: landscape) {
+    body{
+        background: url(../../imagens/cev-landscape.jpg);
+        background-position: left bottom;
+    } 
+}
+/*minhas declarações de retrato*/
+@media screen and (orientation: portrait) {
+    body{
+        background: url(../../imagens/cev-portrait.jpg);
+        background-position: center bottom;
+    }
+}
