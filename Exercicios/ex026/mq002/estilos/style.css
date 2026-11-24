@@ -1,2 +1,18 @@
 @charset "UTF-8";
 /*estilo para todos as dimenções*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    background-size: contain;
+}
+h1{
+    color: whitesmoke;
+    text-shadow: 3px 3px 0px black;
+    padding: 10px;
+}
