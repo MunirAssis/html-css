@@ -1,11 +1,10 @@
 
 
-:root{
-    cor1: ;
-}
+:root{}
 
 
 * {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -13,29 +12,70 @@
 body {
     width: 100vw;
     height: 100vh;
+    background-color: lightgray;
 }
 
 header {
-    background: brown;
+    background: gray;
     text-align: center;
-}
-header > h1{
-font-size: 2rem;
-}
-nav{
-    text-align: left;
-}
 
-li {
-    display: inline-block;
+
+    & h1{
+       font-size: 2rem;
+       padding: 10px;
+    }
     
-    background-color: lightblue;
-    padding: 5px;
-    border-radius: 5px;
+    & nav{
+        display: block;
+        text-align: center;
+    
+        & li {
+            list-style-type: none;
+            
+            & a{
+                display: block;
+                background-color: lightgray;
+                
+                border-radius: 5px;
+                color: white;
+                text-decoration: none;
+                padding: 10px;
+                border-top: 1px solid gray;
+                border-bottom: 1px solid gray;
+            }
+
+            & a:hover {
+                background-color: rgb(255, 255, 255);
+                color: gray;
+            }
+        }
+    }
 }
 
-a{
-    color: white;
-    text-decoration: none;
+
+/*Fim da configuração de desing do Header*/
+
+main {
+    width: 90vw;
+    margin: auto;
+    padding: 20px;
+
+    background-color: white;
+    
+    & article {
+    
+        & h1 {
+            padding-bottom: 20px;
+        }
+    
+        & p{
+            padding-bottom: 20px;
+        }
+    }
 }
 
+/* configuração de mobile finalizada | Mobile first */
+
+@media and (min-width: ) {
+    
+}
